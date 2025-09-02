@@ -1,0 +1,1429 @@
+/*---------------------------------------------------- HOMEPAGE STYLING --------------------------------------------------------*/
+header{
+    background-color: black ;/* Brown background */
+    padding: 10px 20px;
+    position: fixed; /* Makes the header fixed */
+    top: 0; /* Sticks to the top */
+    width: 100%; /* Takes the full width of the viewport */
+    z-index: 1;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.nav-l a{
+
+    font-family: "Parisienne";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    
+}
+
+.mobile-logo{
+    display: none;}
+
+.mobile-logo img{
+    display: none;
+}
+
+.nav-l a{
+    color: pink;
+    text-decoration: none;
+}
+
+.nav-r{
+    display: flex;
+    gap: 50px;
+    font-size:20px;
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-icon{
+    display: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.nav-r button{
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.nav-r button:hover {
+    background-color: #FADADD ;
+}
+.nav-r a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-r button i{
+    margin-left: 8px;
+}
+
+main{
+    margin-top: 70px;
+}
+
+.sec1{
+    text-align: center;
+    padding-top: 30px;
+    font-size:20px;
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 50px;
+}
+
+.hp{
+    background-color: rgba(78, 52, 46, 0.7);
+    background-image: url(./images/chef.jpg);
+    /* background-image: url(./images/pint); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    padding-bottom: 200px;
+}
+
+.sec1 h1{
+    color: white;
+    font-size:70px
+}
+
+.sec1 p{
+    color: rgb(189, 184, 184);
+    margin-top: -20px;
+    font-size: 20px;
+}
+
+.sec1-explore{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    gap: 15px;
+    align-items: center;
+}
+
+.sec1-explore a{
+    text-decoration: none;
+    color: white;
+}
+
+.sec1-explore button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #FADADD;
+    cursor: pointer;
+}
+
+.sec1-socials a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+
+}
+
+/* .sec1-slideshow{
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide {
+    position: absolute;
+    width: 1000px;
+    height: 700px;
+    object-fit: cover;
+    animation: slide 11s infinite;
+    opacity: 0;
+    border-radius:20px
+}
+.slide:nth-child(1) {
+    animation-delay: 0s;
+}
+.slide:nth-child(2) {
+    animation-delay: 3s;
+}
+.slide:nth-child(3) {
+    animation-delay: 7s;
+}
+.slide:nth-child(4) {
+    animation-delay: 11s;
+  }
+@keyframes slide {
+  0%, 100% {
+    opacity: 0;
+  }
+  33%, 66% {
+    opacity: 1;
+  }
+} */
+
+.hp-sec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 50px;
+    /* text-align: center; */
+}
+
+.hp-sec2 h2{
+    font-size: 30px;
+}
+
+.hp-sec2 p{
+    color: rgb(70, 68, 68);
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+.flavour-grid{
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.flavour-item:hover {
+    background-color: rgba(29, 27, 27, 0.8) ;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.flavour-item{
+    padding: 30px 60px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+}
+
+.flavour-item  button{
+    padding: 5px 5px;
+    background-color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.van{
+    background-image: url(./images/vanilla.jpg);
+}
+.choc{
+    background-image: url(./images/chocolate.jpg);
+}
+.lem{
+    background-image: url(./images/lemon\ zest\ flavour.jpg);
+}
+.rasb{
+    background-image: url(./images/resberry.jpg);
+}
+
+.hp-sec2 a button{
+    padding: 15px 25px;
+    border-radius: 15px;
+    border-color: white;
+    background-color: #FADADD;
+    color: black;
+    cursor: pointer;
+}
+
+.hp-sec3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.hp-sec3 h4{
+    color: #FADADD;
+}
+
+.hp-sec3 h2{
+    margin-top: -15px;
+    font-size: 40px;
+}
+
+.hp-sec3  p{
+    font-size:20px;
+}
+
+.winter-p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.winter-themed{
+    position: relative; /* Ensure positioning context */
+    display: inline-block; /* Adjust as needed */
+    width: 900px; /* Set width for the container */
+    height: 900px; /* Set height for the container */
+    overflow: hidden; /* Hide anything outside the container */
+    padding-bottom: 50px;
+
+    
+}
+
+.winter-themed img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Keeps the image aspect ratio */
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.features i{
+    color: #FADADD;
+    font-size: larger;
+}
+
+.features h3{
+    font-size: 30px;
+    margin-top: -5px;
+}
+
+.features p{
+    margin-top: -10px;
+}
+
+.hp-sec4{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    padding:30px ;
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    padding-bottom: 40px;
+}
+
+.hp-sec4 p{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.sec-4-gallery{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.img4{
+   overflow: hidden;
+   /* flex: 1; */
+   width: 100%;
+   text-align: center;
+
+}
+
+.img4 img{
+    width: 400px;
+    height: 500px;
+    /* display: block; */
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.hp-sec5{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.hp-sec5 h2{
+    font-size: 35px;
+}
+
+.hp5-p{
+    font-size: 20px;
+    color: #f58a97;
+    margin-top: -15px;
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    border-color: black;
+    border: solid 1px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+}
+
+.review i{
+    color: #FADADD;
+    padding-right: 5px;
+}
+
+.rev-l-bold{
+    color: rgb(177, 170, 170);
+}
+
+.rev-r{
+    display: flex;
+    justify-self: end;
+    align-items: center;
+}
+
+.review p{
+    margin-top: -15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.profile-circle{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-circle img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hp-sec6{
+    background-color: #58341c;
+    padding: 50px;
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.sec6-grey{
+    display: flex;
+    flex-direction: row;
+    padding: 90px 90px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec6-l{
+  margin-right: 30px;
+}
+
+.sec6-l img{
+    width: 100%;
+    height: 80%;
+    border-radius: 15px;
+}
+
+.sec6-r {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec6-r h3{
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.sec6-r p{
+    color: rgb(202, 196, 196);
+    margin-top: -25px;
+}
+
+.sec6-r ul{
+    color: white;
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+}
+
+.sec6-r a{
+    text-decoration: none;
+    color: white;
+    margin-left: 60px;
+    font-size: 18px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.hp-sec7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    padding-bottom: 40px;
+}
+
+.sec7-l{
+    display: flex;
+    flex-direction: column;
+}
+
+.sec7-l h3{
+    font-size: 25px;
+}
+
+.sec7-l p{
+    font-size: 16px;
+    margin-top: -15px;
+}
+
+.sec7-l span{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin-bottom: 15px;
+}
+
+.sec7-l span i{
+    color: #FADADD;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    padding: 50px;
+    padding-top: 100px;
+}
+
+.footer-t{
+    color: gray;
+    
+}
+
+.footer-b{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer-b a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-soc i{
+    margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    /* Header Adjustments */
+    header {
+        padding: 30px 25px;
+        border-radius: 25px;
+        background-color: black;
+        margin-top: 20px;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* Navigation */
+    .nav-l a {
+        display: none;
+    }
+
+    .mobile-logo{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    
+    .mobile-logo img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    /* Hide the nav links initially, and show them only on menu toggle */
+    .nav-r  a{
+        display: none; /* Hide the links */
+
+    }
+
+    .menu-icon{
+        display: block;
+        color: white;
+    }
+
+    .nav-r.active {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+        border-radius: 15px;
+        background-color: #FADADD;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        z-index: 1;
+    }
+
+    .nav-l a {
+        color: pink;
+    }
+
+    .nav-r a {
+        color: black;
+    }
+
+    .nav-r button {
+        padding: 10px 30px;
+        border-radius: 25px;
+        background-color: white;
+        cursor: pointer;
+    }
+
+    /* Menu icon for mobile */
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu-icon i {
+        font-size: 30px;
+        color: white;
+    }
+
+    /* Main Section Adjustments */
+    .sec1 {
+        padding-top: 50px;
+        font-size: 18px;
+    }
+
+    .sec1-explore{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sec1 h1 {
+        font-size: 40px; /* Reduce font size */
+    }
+
+    .sec1 p {
+        font-size: 16px;
+    }
+
+    /* Cupcake Flavour Section */
+    .flavour-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .flavour-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Section with festive flavour, artisan craftsmanship, and memorable moments */
+    .hp-sec2 {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hp-sec2 h2 {
+        font-size: 25px; /* Reduce font size */
+    }
+
+    .hp-sec2 p {
+        font-size: 16px;
+    }
+
+    .hp-sec3{
+        text-align: center;
+    }
+
+    /* Cupcake Gallery Image Section */
+    .sec-4-gallery {
+        overflow-x: auto;
+        white-space: nowrap;
+        padding-bottom: 20px;
+    }
+
+    .img4 img {
+        width: 100%;
+        height: 200px; /* Adjust height for smaller screens */
+    }
+
+    /* Features Section */
+    .features {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .sec6-r ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .features i {
+        font-size: 30px; /* Increase icon size slightly for better visibility */
+    }
+
+    .features h3 {
+        font-size: 25px; /* Reduce font size */
+    }
+
+    .hp-sec6{
+        padding: 0px;
+    }
+
+
+    /* HP-Section 7 Adjustments */
+
+    .hp-sec7{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .sec7-l {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sec7-l h3 {
+        font-size: 20px; /* Reduce font size */
+    }
+
+    .sec7-l p {
+        font-size: 14px; /* Reduce font size */
+    }
+
+    /* Footer Adjustments */
+    footer {
+        padding: 20px 15px;
+    }
+
+    .footer-b {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer-b a {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .sec6-grey {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    /* Logos in Footer */
+    
+    .footer-soc{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    /* ----------------------------------------------------------------------------- */
+    .features-grid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .os-features{
+        display: contents;
+      
+    }
+
+    .os-sec3{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .os4-gal{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .os-sec5{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .os-features {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .os5-btn{
+        width: 10%;
+        padding: 5px 10px;
+        background-color: aqua;
+    }
+
+
+
+.os5-right{
+    width: 100%;
+}
+
+    
+.os5-right img{
+    width: 100%;
+    width: 800px;
+    border-radius: 25px;
+    
+    
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+
+.cusec-1{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+
+}
+
+.cu1-top{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+
+.cu1-l a{
+    display: flex;
+    flex-direction: row;
+}
+
+.cusec-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.cu2-features{
+    display: flex;
+    flex-direction: column;
+}
+
+.cu3-r iframe{
+    width: 100%;
+    height: auto;
+}
+
+}
+
+/* Add this media query to the JavaScript function to toggle the menu on mobile */
+
+
+
+/*--------------------------------------------------------OUR STORY STYLING ------------------------------------------------------------*/
+.os{
+    background-image: url(./images/mirror\ aesthetic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(78, 52, 46, 0.9);
+    background-blend-mode: overlay;
+}
+
+.os h1{
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+.os-btn{
+    margin-top: 40px;
+    padding: 15px 20px;
+    background: none;
+    border-color: azure;
+    color: aliceblue;
+    border-radius: 25px;
+}
+
+.os-btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+.os-sec2{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 40px 0;
+}
+
+.os-sec2 h4{
+    color: #ffadb6;
+}
+
+.os-sec2 h2{
+   margin-top: -10px;
+   font-size: 30px;
+}
+
+.os-sec2 p{
+    font-size: 25px;
+    color: grey;
+}
+
+.features-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.os-features i{
+    margin-right: 10px;
+    color: #FADADD;
+    font-size: 18px;
+}
+
+.os-features{
+    font-size: 20px;
+}
+
+.feature-comment p{
+    color: rgb(54, 53, 53);
+    font-size: 20px;
+}
+
+.os-sec3{
+    display: flex;
+    margin: 30px 0;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.os3-img{
+    padding: 80px 120px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+
+.os31{
+    background-image:url(./images/plane\ cupcake.jpg);
+}
+.os32{
+    background-image: url(./images/Baking\ perfection.jpg);
+}
+.os33{
+    background-image: url(./images/decorative\ artistry.jpg);
+}
+
+.os-sec4{
+    display: flex;
+    flex-direction: column;
+    /* margin: 100px 0; */
+    align-items: center;
+    padding: 40px 100px;
+    background-color:#F8E7D1;
+}
+
+.os-sec4 h2{
+    font-size: 30px;
+}
+
+.os-sec4 p{
+    color: rgb(39, 37, 34);
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.os4-gal{
+   gap: 20px;
+}
+
+.os4img img{
+    height: 80%;
+    width: 400px;
+}
+
+.os4img h4{
+    font-size: 20px;
+}
+
+.os4img p{
+    font-size: 18px;
+    margin-top: -5px;
+}
+
+.os-sec5{
+    background-color:#F8E7D1; 
+    display: flex;
+    padding: 40px;
+}
+
+.os5-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.os5-left h2{
+    font-size: 40px;
+}
+
+.os5-left p{
+    font-size: 20px;
+    margin-top: -15px;
+}
+
+.os5-features{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-size: 20px;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.os5-features i{
+    color: rgb(214, 130, 130);
+    margin-right:10px ;
+}
+
+.os5-btn{
+    color: white;
+    margin-top: 30px;
+    width: 30%;
+    border-radius: 25px;
+    background-color: rgb(214, 130, 130);
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+
+.os5-btn i{
+    margin-right: 10px;
+}
+
+.os5-right{
+    width: 50%;
+}
+
+.os5-right img{
+    height: 60%;
+    width: 90%;
+    border-radius: 25px;
+    
+}
+
+/* ---------------------------------------------Contact Us------------------------------------------------------------- */
+
+.cusec-1{
+    display:flex;
+    flex-direction: column;
+    padding: 50px 80px;
+}
+
+.cu1-top{
+    display: flex;
+    justify-content: center;
+}
+
+.cu1-l{
+    width:50%
+}
+
+.cu1-l h2{
+    font-size: 50px;
+}
+
+.cu1-l button{
+    padding: 20px 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.cubtn-l{
+    border: none;
+    background-color: #ffadb6;
+    color: white;
+}
+
+.cubtn-l i{
+    margin-left: 10px;
+}
+
+.cubtn-r{
+    background-color: white;
+    border: solid 1px;
+}
+
+.cu1-r{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cu1-r p{
+    font-size: 25px;
+    color: rgb(124, 123, 123);
+    margin-bottom: 50px;
+}
+
+.cu1-r-txt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cu1-r-txt i{
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+
+
+.carousel-container {
+    position: relative;
+    width: 80%; 
+    height: 200px; 
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 100px;
+  }
+  
+.carousel {
+    display: flex;
+    gap: 20px; 
+    animation: scroll 10s linear infinite; 
+}
+
+.carousel img {
+    height: 100%; 
+    width: 200px; 
+    border-radius: 15px; 
+    object-fit: cover; 
+    flex-shrink: 0;
+}
+
+/* Blurred Edges for Carousel */
+    .carousel-container::before,
+    .carousel-container::after {
+    content: "";
+    position: absolute;
+    width: 10%; /* Adjust blur width */
+    height: 100%;
+    top: 0;
+    z-index: 1;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    pointer-events: none;
+}
+
+.carousel-container::before {
+    left: 0;
+}
+
+.carousel-container::after {
+    right: 0;
+    transform: rotate(180deg); /* Flip the gradient */
+}
+
+/* Infinite Scrolling Animation */
+@keyframes scroll {
+0% {
+    transform: translateX(0);
+}
+100% {
+    transform: translateX(calc(-100% + 80px)); /* Account for image width and gap */
+}
+}
+
+
+.cusec-2{
+    display: flex;
+    padding: 30px;
+    background-color: #F8E7D1
+}
+
+.cu2-l{
+    width: 50%;
+}
+
+.cu2-l img{
+    width: 80%;
+    height: 70%;
+    border-radius: 25px;
+}
+
+.cu2-r{
+    display: flex;
+    flex-direction: column;
+}
+
+.cu2-r h2{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.cu2-features{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 60px;
+}
+
+.cu2-feature i{
+    color: #d67581;
+    margin-left: -25px;
+    margin-right: 10px;
+}
+
+.cu2-feature span{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cu2-feature p{
+    color: gray;
+}
+
+.cusec-3{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.cu3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cu3-l h2{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.cu3-l p{
+    font-size: 20px;
+    color: gray;
+}
+
+.cu3-l span{
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffadb6;
+}
+
+.cu3-r iframe{
+    display: flex;
+    float: right;
+
+}
+
+.cu3-l{
+    padding-right: 150px;
+}
+
+.cu3-r button{
+    padding: 15px 45px;
+    border-radius: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.cu3btn-l{
+    border: none;
+    background-color: #ffadb6;
+    color: white;
+}
+
+.cu3btn-r{
+    background-color: white;
+    border: solid 1px;
+}
+
+
+.cusec-4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    padding: 40px;
+}
+
+.cu4-l{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.cu4-l h1{
+    font-size: 50px;
+}
+
+.cu4-l p{
+    font-size: 30px;
+}
+
+.cu4-r{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.cu4-r-faq{
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    border-color: black;
+    border: solid 1px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+}
+
+.cu4-r-faq h3{
+    font-size: 25px;
+}
+
+.cu4-r-faq p{
+    font-size: 18px;
+}
+
+.cu4-r-faq:hover {
+    padding: 30px 50px;
+    transition: 50ms ease-in;
+}
+
+.cu4-r a{
+    text-decoration: none;
+    color: #f58a97;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    padding: 50px;
+    padding-top: 100px;
+}
+
+.footer-t{
+    color: gray;
+    
+}
+
+.footer-b{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer-b a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-soc i{
+    margin-right: 20px;
+}
